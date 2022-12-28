@@ -1,4 +1,6 @@
+![image](https://user-images.githubusercontent.com/102288573/209771205-6878b839-6798-4736-a093-8fd054c62b40.png)
 # weather_app_django
+
 
 A mobile responsive, with city search functionaliy, weather app using the [Open Weather](https://openweathermap.org/).
 
