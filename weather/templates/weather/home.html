@@ -1,9 +1,4 @@
-{% extends 'base.html' %}{% block title %}Home{% endblock title %} {% block search %}
-<form class="d-flex" role="search">
-	<input class="form-control me-2" type="search" placeholder="Search City" aria-label="Search" />
-	<button class="btn btn-outline-success" type="submit">Search</button>
-</form>
-{% endblock search %} {% block content %}
+{% extends 'base.html' %}{% block title %}Home{% endblock title %}{% block content %}
 <div class="row d-flex justify-content-center align-items-center py-5 mt-5">
 	<div class="col-md-8 col-lg-6 col-xl-4">
 		<div class="card" style="color: #4b515d; border-radius: 35px">
@@ -17,7 +12,9 @@
 					<h6 class="display-4 mb-0 font-weight-bold" style="color: #1c2331">
 						{{data.main.temp}}°C
 					</h6>
-					{% for item in data.weather %}
+					{% if error %}
+					<div class="alert alert-danger" role="alert">{{error}}</div>
+					{% endif %} {% for item in data.weather %}
 					<span class="small" style="color: #868b94">{{item.description}}</span>
 					{% endfor %}
 				</div>
