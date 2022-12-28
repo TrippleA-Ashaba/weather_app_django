@@ -2,7 +2,7 @@
 # weather_app_django
 
 
-A mobile responsive, with city search functionaliy, weather app using the [Open Weather](https://openweathermap.org/).
+A mobile responsive, with city search functionaliy, weather app using the [Open Weather api](https://openweathermap.org/).
 
 ## How Install
 
