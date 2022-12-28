@@ -6,5 +6,17 @@ A mobile responsive, with city search functionaliy, weather app using the [Open 
 After forking the repository, create a virtual environment
 
 ```
-python -m venv .venv
+$ python -m venv .venv
+```
+
+Then activate the environment
+
+```
+$ source .venv/Scripts/activate
+```
+
+Then install all dependencies from the requirements.txt file
+
+```
+$ pip install -r requirements.txt
 ```
