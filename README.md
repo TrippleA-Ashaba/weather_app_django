@@ -26,7 +26,7 @@ Then install all dependencies from the requirements.txt file
 $ pip install -r requirements.txt
 ```
 
-Still on the django*project level, create a *.env\_ file, Here we shall put our API_KEY and SECRET_KEY
+Still on the django*project level, create a *.env\* file, Here we shall put our API_KEY and SECRET_KEY
 
 ```
 SECRET_KEY = "this is my secret key"
@@ -41,8 +41,9 @@ You can straight away start using the weather app
 $ python manage.py runserver
 ```
 
-Or copy the weather app contents and use in another project.
-Then register the app in _django_project/settings.py_ installed apps
+Or copy the weather app contents and register it to use in another project.
+
+_django_project/settings.py_
 
 ```diff
 INSTALLED_APPS = {
