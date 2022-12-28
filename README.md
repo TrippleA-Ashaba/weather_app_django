@@ -4,6 +4,8 @@
 
 A mobile responsive, with city search functionaliy, weather app using the [Open Weather API](https://openweathermap.org/).
 
+The API is interacted with using the excellent and elegant [Requests](https://requests.readthedocs.io/en/latest/) Library.
+
 ## How Install
 
 After forking the repository, create a virtual environment on the same level as the _django_project_
@@ -24,7 +26,7 @@ Then install all dependencies from the requirements.txt file
 $ pip install -r requirements.txt
 ```
 
-Still on the django_project level, create a _.env_ file, Here we shall put our API_KEY and SECRET_KEY
+Still on the django*project level, create a *.env\_ file, Here we shall put our API_KEY and SECRET_KEY
 
 ```
 SECRET_KEY = "this is my secret key"
