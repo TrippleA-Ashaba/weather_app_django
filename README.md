@@ -36,7 +36,7 @@ $ python manage.py runserver
 Or copy the weather app contents and use in another project.
 Then register the app in *django_project/settings.py* installed apps
 
-```diff
+```json
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
