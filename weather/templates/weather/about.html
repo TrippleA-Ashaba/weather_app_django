@@ -1,5 +1,9 @@
 {% extends 'base.html' %}{% block title %}About{% endblock title %}{% block content %}
 <div class="text-white">
 	<h1>About Page</h1>
+	{% for item in items %}
+	<h1 class="text-success">{{ item.title }}</h1>
+	<p style="color: #1a8b9d">{{item.body}}</p>
+	{% endfor %}
 </div>
 {% endblock content %}
