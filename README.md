@@ -59,7 +59,7 @@ INSTALLED_APPS = {
 }
 ```
 
-#### Run migrations
+### Run migrations
 No database is being used so just run migrations to get rid of the errors
 
 ```
