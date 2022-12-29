@@ -33,7 +33,7 @@ SECRET_KEY = "this is my secret key"
 API_KEY = "api_key_from_openweathermap"
 ```
 
-## Start Using App
+## Start Using Weather App
 
 You can straight away start using the weather app
 
