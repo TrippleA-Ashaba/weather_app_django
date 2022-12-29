@@ -59,4 +59,15 @@ INSTALLED_APPS = {
 }
 ```
 
+#### Run migrations
+No database is being used so just run migrations to get rid of the errors
+
+```
+$ python manage.py makemigrations
+```
+```
+$ python manage.py migrate
+```
+
+
 ### ENJOY
